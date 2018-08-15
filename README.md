@@ -48,7 +48,7 @@ spring.datasource.password=
         "id": 3
     }
     
-  # note: id can be null or any number the category with the id in the link gets modified
+  # note: id can be null or any number the category with the id in the url gets modified
 ```
 
 
@@ -84,7 +84,7 @@ spring.datasource.password=
         "price": 1000
     }
     
-  # note: id can be null or any number the database auto increament the id categoryID must   be provided
+  # note: id can be null or any number the database auto increament the id categoryID must be provided
 ```
 
 - Update product  
@@ -102,7 +102,7 @@ spring.datasource.password=
         "price": 1000
     }
     
-  # note: id can be null or any number the category with the id in the link gets modified
+  # note: id can be null or any number the category with the id in the url gets modified
 ```
 
 - Delete product  
