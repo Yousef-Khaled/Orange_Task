@@ -10,6 +10,7 @@ spring.datasource.ur=jdbc:mysql://localhost:3306/toystore
 spring.datasource.username=root
 spring.datasource.password=
 ```
+- Run the project as java application
 
 ### Usage 
 - List all categories 
