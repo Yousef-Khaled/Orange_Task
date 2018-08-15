@@ -26,7 +26,7 @@ spring.datasource.password=
 ```sh
 	Send Post request to /categories
     
- 	# the Post request contains a JSON file represnting
+    # the Post request contains a JSON file represnting
     # a category. example:  
     
     {
