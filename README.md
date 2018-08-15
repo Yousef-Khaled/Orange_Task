@@ -64,6 +64,11 @@ spring.datasource.password=
 ```sh
 	Send GET request to /products/{id}
 ````
+- List products by category
+```sh
+	Send GET request to categories/{id}/products
+````
+
 - Add product  
 ```sh
     Send Post request to /products
