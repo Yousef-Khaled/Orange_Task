@@ -2,7 +2,7 @@
 
 ### How to build
 
-- If have eclipse installed you can import a maven project if not use pom.xml to     get the dependencies  and the code in Toy0Store/src/ folder to bilud the project.
+- If you have eclipse installed you can import a maven project if not use pom.xml to get the dependencies and the code in Toy0Store/src/ folder to bilud the project.
 
 - Change the database credentials in "src/main/resources/application.properties." Example:
 ```sh
@@ -24,7 +24,7 @@ spring.datasource.password=
 ```
 - Add category  
 ```sh
-	Send Post request to /categories
+    Send Post request to /categories
     
     # the Post request contains a JSON file represnting
     # a category. example:  
@@ -38,7 +38,7 @@ spring.datasource.password=
 ```
 - Update category  
 ```sh
-	Send PUT request to /categories/{id}
+    Send PUT request to /categories/{id}
  	
     # the PUT request contains a JSON file represnting
     # a category. example:   
@@ -66,9 +66,9 @@ spring.datasource.password=
 ````
 - Add product  
 ```sh
-	Send Post request to /products
+    Send Post request to /products
     
- 	# the Post request contains a JSON file represnting
+    # the Post request contains a JSON file represnting
     # a product. example:  
     
    {
@@ -84,7 +84,7 @@ spring.datasource.password=
 
 - Update product  
 ```sh
-	Send PUT request to /products/{id}
+    Send PUT request to /products/{id}
  	
     # the PUT request contains a JSON file represnting
     # a product. example:   
